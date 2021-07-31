@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring D3</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Circle -->
+    <svg width="400" height="400">
+        <circle cx="150" cy="150" r=100></circle>
+    </svg>
+    <!-- Rectangle -->
+    <div>
+        <svg width="300" height="200">
+            <rect width="200" height="100" x="50" y="50" rx="5" ry="5"></rect>
+        </svg>
+    </div>
+    <!-- Circle -->
+    <div>
+        <svg width="200" height="200">
+            <rect width="100" height="100" x="50" y="50"></rect>
+        </svg>
+    </div>
+    <!-- Ellipse -->
+    <div>
+        <svg width="300" height="200">
+            <ellipse rx="70" ry="35" cx="150" cy="100"></ellipse>
+        </svg>
+    </div>
+    <!-- Line -->
+    <div>
+        <svg width="200" height="200">
+            <line x1="5" y1="5" x2="150" y2="150"></line>
+        </svg>
+    </div>
+    <!-- Triangle -->
+    <div>
+        <svg width="300" height="200">
+            <polygon points="0,180 150,0 280,180"></polygon>
+        </svg>
+    </div>
+    <!-- Pentagon -->
+    <div>
+        <svg width="300" height="200">
+            <polygon points="60,100 150,0 240,100 200,200 100,200"></polygon>
+        </svg>
+    </div>
+    <!-- Star -->
+    <div>
+        <svg width="300" height="200">
+            <polygon points="100,10 40,198 190,78 10,78 160,198"></polygon>
+        </svg>
+    </div>
+    <!-- Polyline -->
+    <div>
+        <svg width="300" height="200">
+            <polyline points="0,3 30,3 30,30 60,30 60,60 90,60 90,90 120,90"></polyline>
+        </svg>
+    </div>
+    <!-- Text -->
+    <div>
+        <svg width="300" height="200">
+            <text x="0" y="16">D3 is awesome!</text>
+            <text x="10" y="40">D3 is awesome!</text>
+        </svg>
+    </div>
+    <script src="libs/d3.min.js"></script>
+</body>
+
+</html>
